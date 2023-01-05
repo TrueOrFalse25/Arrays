@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+        const name = ["Yadira", "Kadiatou", "Isaiah", "Francisco", "Darius"];
+        for (let i = 0; i < name.length; i++) {
+            console.log(name[i]);
+        }
+
+        const ages = [22,28,27,33,29];
+        var aggAge = 0;
+        for (let i = 0; i < ages.length; i++) {
+            aggAge += ages[i];
+        }
+        var avgAge = aggAge / ages.length;
+        console.log(avgAge);
+
+        const birthLocations = ["Queens", "Bronx", "Manhattan", "Bronx", "Brooklyn"];
+    </script> -->
+    <script>
+        let names = ["Daniel","Yaika","Luke","William","Kathryn","Taylor","Makenzie","Brenton","Max","Mike","Olivia","Rebecca","Daley","Tim","Ahmad","Chelsey","Faedra","Terrace","Kate","Zaire"];
+        for (let i = 0; i < names.length; i++) {
+            console.log(names[i]);
+        }
+
+        let shortBios = [];
+        let nickname = ["Danny","Yikes","Loki","Wild Bill","Kath","Tay","Kenzy","Smelly","Smallman","","Liv","Becca","","Tim","Ahms","","Mattox","T-Dawg","KMoMo",""]
+        for (let i = 0; i < names.length; i++) {
+            let person = {name: names[i], nickname: nicknames[i], age: age[i]};
+        }
+        console.log(shortBios);
+
+        let age = [31,30,28,29,51,25,27,30,100,19,26,29,25,27,29,29,43,31,27,29];
+        var aggAge = 0;
+        for (let i = 0; i < age.length; i++) {
+            aggAge += age[i];
+        }
+        console.log(aggAge/age.length);
+
+        let sum = age.reduce((accumulator, currentValue) => {
+            return accumulator + currentValue;
+        }, 0);
+        console.log(sum/age.length);
+
+        let hairColor = ["Brown","Black","Dark Blonde","Brown","Brown","Brown","Brown","Blonde","Brown","Blonde","Blonde","Brown","Brown","Black","Black","Blonde","Brown","Brown","Amber ","Black"]
+        let brownCount = 0;
+        for (let i = 0; i < age.length; i++) {
+            if (hairColor[i] == "Brown") {
+                brownCount += 1;
+            }
+        }
+        let percentage = brownCount / age.length * 100;
+        console.log(percentage + "%");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
